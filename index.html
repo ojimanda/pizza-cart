@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Cart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pizza</h1>
+
+      <!-- item list -->
+      <div class="item-list">
+        <div class="item satu">
+          <div class="card image"><img src="img/pizza-1.jpg" /></div>
+          <div class="card title">
+            <h3>Pizza Satu</h3>
+          </div>
+          <div class="card price">
+            <p>$ 8</p>
+          </div>
+          <div class="card point"><input type="radio" id="pizza-1" name="list-pizza" value="8" /></div>
+        </div>
+        <div class="item dua">
+          <div class="card image"><img src="img/pizza-2.jpg" /></div>
+          <div class="card title">
+            <h3>Pizza Dua</h3>
+          </div>
+          <div class="card price">
+            <p>$ 10</p>
+          </div>
+          <div class="card point"><input type="radio" id="pizza-2" name="list-pizza" value="10" /></div>
+        </div>
+        <div class="item tiga">
+          <div class="card image"><img src="img/pizza-3.jpg" /></div>
+          <div class="card title">
+            <h3>Pizza Tiga</h3>
+          </div>
+          <div class="card price">
+            <p>$ 12</p>
+          </div>
+          <div class="card point"><input type="radio" id="pizza-3" name="list-pizza" value="12" /></div>
+        </div>
+      </div>
+      <!-- end of item list -->
+      <!-- list size -->
+      <div class="size-list">
+        <h1>Size</h1>
+        <div class="size">
+          <div class="small">
+            <input type="radio" id="small" name="list-size" value="-1" />
+            <p>Small</p>
+          </div>
+          <div class="medium">
+            <input type="radio" id="medium" name="list-size" value="0" checked />
+            <p>Medium</p>
+          </div>
+          <div class="large">
+            <input type="radio" id="large" name="list-size" value="2" />
+            <p>Large</p>
+          </div>
+        </div>
+      </div>
+      <!-- end of list size -->
+      <!-- list topping -->
+      <div class="topping-list">
+        <h1>Toppings</h1>
+        <div class="toppings">
+          <div class="topping avocado">
+            <input type="checkbox" id="avocado" name="avocado" value="1" />
+            <label for="avocado">Avocado</label>
+          </div>
+          <div class="topping lobster">
+            <input type="checkbox" id="lobster" name="lobster" value="2" />
+            <label for="lobster">Lobster</label>
+          </div>
+          <div class="topping bacon">
+            <input type="checkbox" id="bacon" name="bacon" value="3" />
+            <label for="bacon">Bacon</label>
+          </div>
+          <div class="topping broccoli">
+            <input type="checkbox" id="broccoli" name="broccoli" value="1" />
+            <label for="broccoli">Broccoli</label>
+          </div>
+          <div class="topping oyster">
+            <input type="checkbox" id="oyster" name="oyster" value="2" />
+            <label for="oyster">Oyster</label>
+          </div>
+          <div class="topping duck">
+            <input type="checkbox" id="duck" name="duck" value="3" />
+            <label for="duck">Duck</label>
+          </div>
+          <div class="topping onions">
+            <input type="checkbox" id="onions" name="onions" value="1" />
+            <label for="onions">Onions</label>
+          </div>
+          <div class="topping salmon">
+            <input type="checkbox" id="salmon" name="salmon" value="2" />
+            <label for="salmon">Salmon</label>
+          </div>
+          <div class="topping ham">
+            <input type="checkbox" id="ham" name="ham" value="3" />
+            <label for="ham">Ham</label>
+          </div>
+          <div class="topping zucchini">
+            <input type="checkbox" id="zucchini" name="zucchini" value="1" />
+            <label for="zucchini">Zucchini</label>
+          </div>
+          <div class="topping tuna">
+            <input type="checkbox" id="tuna" name="tuna" value="2" />
+            <label for="tuna">Tuna</label>
+          </div>
+          <div class="topping sausage">
+            <input type="checkbox" id="sausage" name="sausage" value="3" />
+            <label for="sausage">Sausage</label>
+          </div>
+        </div>
+      </div>
+      <!-- end of list topping -->
+
+      <!-- Price -->
+      <div class="price">
+        <h1>Price</h1>
+        <div class="total-price"></div>
+      </div>
+      <!-- end of Price -->
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
